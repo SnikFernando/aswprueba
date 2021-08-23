@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "ee0d17e5-9bee-434b-8fd8-f0f4054d9201",
+		"name": "AWSPureba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "dev/createproduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"galleta\",\r\n    \"price\":1.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nsj25goou6.execute-api.us-west-1.amazonaws.com/dev/api/product",
+					"protocol": "https",
+					"host": [
+						"nsj25goou6",
+						"execute-api",
+						"us-west-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listproduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nsj25goou6.execute-api.us-west-1.amazonaws.com/dev/api/product",
+					"protocol": "https",
+					"host": [
+						"nsj25goou6",
+						"execute-api",
+						"us-west-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/swapi/people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nsj25goou6.execute-api.us-west-1.amazonaws.com/dev/api/swapi/people/1",
+					"protocol": "https",
+					"host": [
+						"nsj25goou6",
+						"execute-api",
+						"us-west-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"api",
+						"swapi",
+						"people",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
